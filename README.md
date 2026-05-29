@@ -83,4 +83,4 @@ make -j$(nproc)
 Visit http://localhost:8848/ in your browser for the Web UI.
 
 ## Optimizations & Performance
-For full technical details about fixed-stat normalization, Horner minimax polynomial approximation for Sin, Pow-to-Mul substitution, Snake1d Conv folding, and custom ConvTranspose padding rewrites, see the NOTES.md file.
+For full technical details about fixed-stat normalization, Horner minimax polynomial approximation for Sin, Pow-to-Mul substitution, Snake1d Conv folding, and custom ConvTranspose padding rewrites, see the ON_RKNN_HACKING.md file.
