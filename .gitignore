@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- C++ / CMake build output ----
+build/
+cmake-build-*/
+compile_commands.json
+*.o
+*.a
+*.so
+
+# ---- Profiling / runtime scratch ----
+run.log
+*.log
+dumps/
+uploads/
+
+# ---- Upstream weights & vendored repos (fetch separately, see README) ----
+Kokoro-82M/
+kokoro-src/
+voices_npy/
+
+# ---- Generated model artefacts (regenerate via build.py; too large for git) ----
+# Intermediates
+onnx/_decoder_raw.onnx
+onnx/_decoder_fixnorm.onnx
+onnx/_decoder_fixnorm_sin.onnx
+onnx/_decoder_final.onnx
+# Stray RKNN toolkit debug dumps
+check[0-9]*_*.onnx
+# Shipped artefacts (commit via Git LFS instead if you want them in the repo)
+*.onnx
+*.rknn
+norm_stats.npz
+
+.antigravitycli

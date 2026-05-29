@@ -1,0 +1,3 @@
+[submodule "misaki-cpp"]
+	path = misaki-cpp
+	url = https://github.com/marty1885/misaki-cpp
