@@ -6,7 +6,7 @@ It provides both a Python prototyping pipeline (infer.py) and a production-ready
 
 ## Features
 
-- RK3588 NPU Acceleration: Run the Kokoro decoder on the Rockchip RK3588 NPU at ~3.5× RTF (via custom graph rewrites: fixed-stat normalization, Horner minimax Sin approximation, operator folding, and deconv-to-conv transform).
+- RK3588 NPU Acceleration: Run the Kokoro decoder on the Rockchip RK3588 NPU at ~2.5× RTF (via custom graph rewrites: fixed-stat normalization, Horner minimax Sin approximation, operator folding, and deconv-to-conv transform).
 - Native C++ Library (libkokoro): Zero Python dependency, using ONNX Runtime (CPU/CUDA/TensorRT) or RKNN for inference.
 - English G2P Frontend: Integration with misaki-cpp (English G2P frontend) and espeak-ng.
 - OpenAI-Compatible Server: High-performance HTTP/WebSocket server using Drogon, offering:
